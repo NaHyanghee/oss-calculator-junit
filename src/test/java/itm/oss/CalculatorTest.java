@@ -48,7 +48,7 @@ class CalculatorTest {
     @Test
     void testIsFourPrime() {
     // 4는 소수가 아니지만, 소수(true)라고 일부러 잘못된 주장을 하는 테스트
-        assertTrue(calculator.isPrime(3));
+        assertTrue(calc.isPrime(3));
     }
 
 }
