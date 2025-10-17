@@ -45,5 +45,10 @@ class CalculatorTest {
         assertFalse(calc.isPrime(-4), "There are not negative primer numbers.");
         assertFalse(calc.isPrime(-5), "There are not negative primer numbers.");
     }
+    @Test
+    void testIsFourPrime() {
+    // 4는 소수가 아니지만, 소수(true)라고 일부러 잘못된 주장을 하는 테스트
+    assertTrue(calculator.isPrime(4)); 
+    }
 
 }
